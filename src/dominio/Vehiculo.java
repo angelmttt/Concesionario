@@ -13,7 +13,12 @@ public abstract class Vehiculo implements Serializable {
         this.precioBase = precioBase;
     }
 
-    public abstract double CalcularPrecioFinal();
+    public abstract double calcularPrecioFinal();
+
+  
+    public String toString() {
+        return "Marca: " + marca + ", Modelo: " + modelo + ", Precio Base: " + precioBase;
+    }
 
     public String getMarca() {
         return marca;

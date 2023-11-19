@@ -20,4 +20,10 @@ public class Furgoneta extends Vehiculo {
     public void setCapacidadM3(double capacidadM3) {
         this.capacidadM3 = capacidadM3;
     }
+     public String toString(){
+        String s ="Marca: "+this.getMarca()+". Modelo: "+this.getModelo()+". Precio base: "+this.getPrecioBase()+". Capacidad: "+this.getCapacidadM3(); 
+        return s;
+    }
+
+
 }

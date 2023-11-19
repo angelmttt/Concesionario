@@ -27,4 +27,9 @@ public class VehiculoTurismo extends Vehiculo {
     public void setNumeroPlazas(int numeroPlazas) {
         this.numeroPlazas = numeroPlazas;
     }
+public String toString(){
+        String s = "Marca: "+this.getMarca()+". Modelo: "+this.getModelo()+". Precio : "+this.getPrecioBase()+". Plazas: "+this.getNumeroPlazas();
+        return s;
+    }
+    
 }
